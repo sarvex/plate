@@ -7924,7 +7924,7 @@ __metadata:
     tsup: "npm:^6.6.3"
     type-fest: "npm:^3.12.0"
     vitest: "npm:^0.32.4"
-    zod: "npm:^3.21.4"
+    zod: "npm:^3.22.3"
   bin:
     plate-ui: ./dist/index.js
   languageName: unknown
@@ -24982,6 +24982,13 @@ __metadata:
   version: 3.21.4
   resolution: "zod@npm:3.21.4"
   checksum: f25f384f380c49d05a11541093a8d26f07688aa39f6a8adbd6dc338b43f63617bf138734fb1b79800ba374523f6a1bb561f7d401b3cc051fed2715eae5577d0a
+  languageName: node
+  linkType: hard
+
+"zod@npm:^3.22.3":
+  version: 3.22.4
+  resolution: "zod@npm:3.22.4"
+  checksum: 6de658042fb4a67e901e38604746246171a39cb8c5227ba8b334a636b4db4a4c3a995ea2a2377323dcfbfd3dd58fee1f49f1fc95a5d5d87b2476844ad09c082b
   languageName: node
   linkType: hard
 
