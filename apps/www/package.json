@@ -114,7 +114,7 @@
     "jotai": "^2.2.2",
     "lodash.template": "^4.5.0",
     "lucide-react": "^0.277.0",
-    "next": "13.4.19",
+    "next": "13.5.1",
     "next-contentlayer": "0.3.4",
     "next-themes": "^0.2.1",
     "next-usequerystate": "1.8.0-beta.13",
