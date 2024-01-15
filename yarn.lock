@@ -17747,6 +17747,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nanoid@npm:^3.3.7":
+  version: 3.3.7
+  resolution: "nanoid@npm:3.3.7"
+  bin:
+    nanoid: bin/nanoid.cjs
+  checksum: a8844cf563f0e91174e12b960d602847c5557bd44e880fec501f747e2ab2da1653a9b6acb514aa524c942fe3a19b18f47f3acf58a3ee6fd22fd17e47608da3aa
+  languageName: node
+  linkType: hard
+
 "nanoid@npm:^4.0.0":
   version: 4.0.2
   resolution: "nanoid@npm:4.0.2"
@@ -19582,6 +19591,17 @@ __metadata:
     picocolors: "npm:^1.0.0"
     source-map-js: "npm:^1.0.2"
   checksum: f588779b61f0cd55075aa7ec5850868448d51aec381850819ca233febfda9a57d21eeeddd2e2c854beac98b7e321e9428acc774796212610865e1fefce950903
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.4.33":
+  version: 8.4.33
+  resolution: "postcss@npm:8.4.33"
+  dependencies:
+    nanoid: "npm:^3.3.7"
+    picocolors: "npm:^1.0.0"
+    source-map-js: "npm:^1.0.2"
+  checksum: 47f4cbec5a5ad9984ad878f62e08c12d1a39dfb40c9a82e93300155600a2399d6e26a38fddf44b997b3cc2e564ca163a663f32d1c350e6f7629232325aaf6542
   languageName: node
   linkType: hard
 
@@ -24734,7 +24754,7 @@ __metadata:
     next-contentlayer: "npm:0.3.4"
     next-themes: "npm:^0.2.1"
     next-usequerystate: "npm:1.8.0-beta.13"
-    postcss: "npm:^8.4.25"
+    postcss: "npm:^8.4.33"
     prism-react-renderer: "npm:^1.3.5"
     react: "npm:^18.2.0"
     react-dnd: "npm:16.0.1"
