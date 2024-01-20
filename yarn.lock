@@ -11032,7 +11032,7 @@ __metadata:
     "@vitejs/plugin-react": "npm:^3.1.0"
     react-router-dom: "npm:6.14.1"
     typescript: "npm:5.1.6"
-    vite: "npm:^4.4.3"
+    vite: "npm:^4.5.2"
   languageName: unknown
   linkType: soft
 
@@ -17747,6 +17747,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nanoid@npm:^3.3.7":
+  version: 3.3.7
+  resolution: "nanoid@npm:3.3.7"
+  bin:
+    nanoid: bin/nanoid.cjs
+  checksum: a8844cf563f0e91174e12b960d602847c5557bd44e880fec501f747e2ab2da1653a9b6acb514aa524c942fe3a19b18f47f3acf58a3ee6fd22fd17e47608da3aa
+  languageName: node
+  linkType: hard
+
 "nanoid@npm:^4.0.0":
   version: 4.0.2
   resolution: "nanoid@npm:4.0.2"
@@ -19585,6 +19594,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss@npm:^8.4.27":
+  version: 8.4.33
+  resolution: "postcss@npm:8.4.33"
+  dependencies:
+    nanoid: "npm:^3.3.7"
+    picocolors: "npm:^1.0.0"
+    source-map-js: "npm:^1.0.2"
+  checksum: 47f4cbec5a5ad9984ad878f62e08c12d1a39dfb40c9a82e93300155600a2399d6e26a38fddf44b997b3cc2e564ca163a663f32d1c350e6f7629232325aaf6542
+  languageName: node
+  linkType: hard
+
 "preferred-pm@npm:^3.0.0":
   version: 3.0.3
   resolution: "preferred-pm@npm:3.0.3"
@@ -21263,7 +21283,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^3.25.2, rollup@npm:^3.26.2":
+"rollup@npm:^3.26.2":
   version: 3.26.2
   resolution: "rollup@npm:3.26.2"
   dependencies:
@@ -21274,6 +21294,20 @@ __metadata:
   bin:
     rollup: dist/bin/rollup
   checksum: 99e76bdaa73e1f5d80d73074605d606c89a93ddf9f7c20d4314bc2eaadea92c92c467eed11cd52465605c2403acd9d0b4445c48f6f2a5e62dd85eca8d45d5f1c
+  languageName: node
+  linkType: hard
+
+"rollup@npm:^3.27.1":
+  version: 3.29.4
+  resolution: "rollup@npm:3.29.4"
+  dependencies:
+    fsevents: "npm:~2.3.2"
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  bin:
+    rollup: dist/bin/rollup
+  checksum: a9d709889e956756cb677c41c48088681a96b7a34c380a97408dfe43877a24584cbc97ebd61802040de691a96a4603bab42ee6728d456edb0a603811cec8c15b
   languageName: node
   linkType: hard
 
@@ -24134,14 +24168,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^4.4.3":
-  version: 4.4.3
-  resolution: "vite@npm:4.4.3"
+"vite@npm:^4.5.2":
+  version: 4.5.2
+  resolution: "vite@npm:4.5.2"
   dependencies:
     esbuild: "npm:^0.18.10"
     fsevents: "npm:~2.3.2"
-    postcss: "npm:^8.4.25"
-    rollup: "npm:^3.25.2"
+    postcss: "npm:^8.4.27"
+    rollup: "npm:^3.27.1"
   peerDependencies:
     "@types/node": ">= 14"
     less: "*"
@@ -24170,7 +24204,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 2eb5cce85057b61303bb52d9748d6f4dd9f03c12383dc815f52ea245f1f7a69e823fec1ef74c8af56d06bc28f721e6ab398afbaaf8cea9c53a996cfcb80865f1
+  checksum: 71ab0c0b41d1bbe06d28def8703c652f0c109c095ce58f965a01ad63efddc126e0ba2c913c44478442154b54f0d46c2b6eb0be1154f0993bb9cc66014fea6b67
   languageName: node
   linkType: hard
 
